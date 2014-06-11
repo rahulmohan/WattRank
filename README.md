@@ -13,11 +13,9 @@ scipy
 How to Run:
 
 ```html
-
 git clone https://github.com/rahulmohan/WattRank
 cd WattRank
 python bin/app.py
-
 ```
 
 Then open up your browser to the address the app directs you to.
