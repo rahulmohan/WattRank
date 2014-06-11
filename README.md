@@ -5,10 +5,12 @@ A web application that ranks users based on their energy usage with "similar" us
 
 Requirements:
 
+```html
 web.py
 scikit-learn
 numpy
 scipy
+```
 
 How to Run:
 
