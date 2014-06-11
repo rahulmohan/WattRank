@@ -1,0 +1,152 @@
+<html>
+    <head>
+         <link rel="stylesheet" type="text/css" href="style.css">
+        <title>WattRank</title>
+    </head>
+
+<style>
+<link rel="stylesheet" type="text/css" href="style.css">
+/* Basic Grey */
+.basic-grey {
+    width: 400px;
+    margin-right: auto;
+    margin-left: auto;
+    background: #EEE;
+    padding: 20px 30px 20px 30px;
+    font: 12px Georgia, "Times New Roman", Times, serif;
+    color: #888;
+    text-shadow: 1px 1px 1px #FFF;
+    border:1px solid #DADADA;
+}
+.basic-grey h1 {
+    font: 25px Georgia, "Times New Roman", Times, serif;
+    padding: 0px 0px 10px 40px;
+    display: block;
+    border-bottom: 1px solid #DADADA;
+    margin: -10px -30px 30px -30px;
+    color: #888;
+}
+.basic-grey h1>span {
+    display: block;
+    font-size: 11px;
+}
+.basic-grey label {
+    display: block;
+    margin: 0px 0px 5px;
+}
+.basic-grey label>span {
+    float: left;
+    width: 80px;
+    text-align: right;
+    padding-right: 10px;
+    margin-top: 10px;
+    color: #888;
+}
+.basic-grey input[type="text"], .basic-grey input[type="email"], .basic-grey textarea,.basic-grey select{
+    border: 1px solid #DADADA;
+    color: #888;
+    height: 24px;
+    margin-bottom: 16px;
+    margin-right: 6px;
+    margin-top: 2px;
+    outline: 0 none;
+    padding: 3px 3px 3px 5px;
+    width: 70%;
+    font: normal 12px/12px Georgia, "Times New Roman", Times, serif;
+}
+.basic-grey select {
+    background: #FFF url('down-arrow.png') no-repeat right;
+    background: #FFF url('down-arrow.png') no-repeat right);
+    appearance:none;
+    -webkit-appearance:none; 
+    -moz-appearance: none;
+    text-indent: 0.01px;
+    text-overflow: '';
+    width: 72%;
+    height: 30px;
+}
+.basic-grey textarea{
+    height:100px;
+}
+.basic-grey .button {
+    background: #E48F8F;
+    border: none;
+    padding: 10px 25px 10px 25px;
+    color: #FFF;
+}
+.basic-grey .button:hover {
+    background: #CF7A7A
+}
+</style>
+<form action="/hello" method="POST" class="basic-grey">
+  <link rel="stylesheet" type="text/css" href="style.css">
+            <h1 text-align=left>Understand your energy bill</h1>
+              <h1 text-align=left>Compare your home's energy usage with <b>similar</b> people</h1>
+		      <h1 text-align=left>Get insights on whether you are spending too much on your energy bill</h1>
+		<div class="basic-grey">
+			<label for="Census Division">Location</label>
+			<select name="location">
+				<option value="1">New England Census Division (CT, MA, ME, NH, RI, VT)</option>
+				<option value="2">Middle Atlantic Census Division (NJ, NY, PA)</option>
+				<option value="3 ">East North Central Census Division (IL, IN, MI, OH, WI)</option>
+				<option value="4">West North Central Census Division (IA, KS, MN, MO, ND, NE, SD)</option>
+				<option value="5">South Atlantic  Census Division (DC, DE, FL, GA, MD, NC, SC, VA, WV)</option>
+				<option value="6 ">East South Central Census Division (AL, KY, MS, TN)</option>
+				<option value="7">West South Central Census Division (AR, LA, OK, TX)</option>
+				<option value="8">Mountain North Sub-Division (CO, ID, MT, UT, WY)</option>
+				<option value="9">Mountain South Sub-Division (AZ, NM, NV)</option>
+				<option value="10" selected>Pacific Census Division (AK, CA, HI, OR, WA)</option>
+			</select>
+		</div>
+		<div class="basic-grey">
+			<label for="Square Footage">HomeSize</label>
+			<input type="text" name="sqfootage"/ sq. ft required placeholder="square footage"> 
+		</div>
+		<div class="basic-grey">
+			<label for="Household Income">Income</label>
+			<select name="income">
+			  <option value="">Select your family's income range</option>
+                            <option value="1">Less than $2,500</option>
+                            <option value="2">$2,500 to $4,999</option>
+                            <option value="3">$5,000 to $7,499</option>
+                            <option value="4">$7,500 to $9,999</option>
+                            <option value="5">$10,000 to $14,999</option>
+                            <option value="6">$15,000 to $19,999</option>
+                            <option value="7">$20,000 to $24,999</option>
+                            <option value="8">$25,000 to $29,999</option>
+                            <option value="9">$30,000 to $34,999</option>
+                            <option value="10">$35,000 to $39,999</option>
+                            <option value="11">$40,000 to $44,999</option>
+                            <option value="12">$45,000 to $49,999</option>
+                            <option value="13">$50,000 to $54,999</option>
+                            <option value="14">$55,000 to $59,999</option>
+                            <option value="15">$60,000 to $64,999</option>
+                            <option value="16">$65,000 to $69,999</option>
+                            <option value="17">$70,000 to $74,999</option>
+                            <option value="18">$75,000 to $79,999</option>
+                            <option value="19">$80,000 to $84,999</option>
+                            <option value="20">$85,000 to $89,999</option>
+                            <option value="21">$90,000 to $94,999</option>
+                            <option value="22">$95,000 to $99,999</option>
+                            <option value="23">$100,000 to $119,999</option>
+                            <option value="24" selected>$120,000 or More</option>
+			</select>
+		</div>
+		<div class="basic-grey">
+			<label for="EnergySpend">EnergyBill</label>
+			<input type="text" name="energyspend" / required placeholder="Total yearly spend dollars">
+		</div>
+
+	<input type="submit" class="basic-grey">
+</form>
+</body>
+</html>
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,116 @@
+$def with (location, sqfootage, income, energyspend, ranking, shouldBeAmount, dollar_ranks, highestVal, lowestVal)
+<style>
+table{
+  border: 0px solid black;
+  border-spacing: 0px;
+}
+
+table thead tr{
+  font-family: Arial, monospace;
+  font-size: 14px;
+}
+
+table thead tr th{
+  border-bottom: 2px solid black;
+  border-top: 1px solid black;
+  margin: 0px;
+  padding: 2px;
+  background-color: #cccccc;
+}
+
+table tr {
+  font-family: arial, monospace;
+  color: black;
+  font-size:12px;
+  background-color: white;
+}
+
+table tr.odd {
+  background-color: #AAAAAA;
+}
+
+table tr td, th{
+  border-bottom: 1px solid black;
+  padding: 2px;
+}
+
+a:link{
+  font-family:arial, monospace;
+  text-decoration: none;
+  color: teal;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+a:visited{
+  color:black;
+  text-decoration: none;
+}
+
+</style>
+<!-- Bootstrap core CSS -->
+    <link href="http://www.davidparrelli.com/sites/prestige/css/bootstrap.css" rel="stylesheet">
+    <link href="http://www.davidparrelli.com/sites/prestige/css/theme.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="http://www.davidparrelli.com/sites/prestige/css/magnific-popup.css" rel="stylesheet">
+    <link href="glyphs.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="http://www.davidparrelli.com/sites/prestige/css/font-awesome.min.css" rel="stylesheet">
+
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+    <script src="http://www.davidparrelli.com/sites/prestige/js/modernizr.custom.js"></script>
+<html>
+    <head>
+        <title>WattSaver #25</title>
+    </head>
+ <body style="background-color:#ececea">
+  <div class="panel panel-default">
+  <div class="panel-body">
+    <h1 style="font-size:65px; text-align:center;">WattRank</h1>
+  </div>
+
+    <!-- About Section
+    ================================================== -->
+    <section id="about" class="content text-center">   
+    <div class="col-md-12" style="margin-bottom:20px">
+    <div class="panel panel-default" style="width:80%; margin-left:11%; margin-right:40%;">
+  <div class="panel-heading">
+    <h3 class="panel-title"></h3>
+  </div>
+  <div class="panel-body">
+    <div id="myTabContent" class="tab-content">
+<body>
+<h1 align="center"><em style="color: green; font-size: 2em;">You are ranked $ranking among your $dollar_ranks peers</em></h1>
+<h1 align="center"><em style="color: green; font-size: em;">Your energy bill should be $shouldBeAmount dollars</em> 
+<h1 align="center"><em style="color: green; font-size: em;">The lowest energy spend is  $lowestVal dollars</em> 
+<h1 align="center"><em style="color: green; font-size: em;">The highest energy spend is  $highestVal dollars</em> 
+<table style="width:300px">
+	<tr>
+  		<th>Census Division</th>
+  		<th>Square Footage</th> 
+  		<th>Income</th>
+  		<th>Yearly Energy Bill</th>
+	</tr>
+	<tr>
+  		<td>$location</td>
+  		<td>$sqfootage</td> 
+  		<td>$income</td>
+  		<td>$energyspend</td>
+	</tr>
+</table>
+
+</body>
+</html>
