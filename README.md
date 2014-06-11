@@ -27,4 +27,5 @@ Additionally, check out WattRank-Readme.docx for more documentation on the code 
 Data Description and Link
 ========
 
+The data being used is the RECS 2009 survey data. Find out more about it at the following link:
 http://www.eia.gov/consumption/residential/data/2009/index.cfm?view=characteristics
