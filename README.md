@@ -22,6 +22,9 @@ python bin/app.py
 
 Then open up your browser to the address the app directs you to.
 
-Data description and link:
+Additionally, check out WattRank-Readme.docx for more documentation on the code and algorithms being used.
+
+Data Description and Link
+========
 
 http://www.eia.gov/consumption/residential/data/2009/index.cfm?view=characteristics
