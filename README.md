@@ -3,7 +3,8 @@ WattRank
 
 A web application that ranks users based on their energy usage with "similar" users, utilizing machine learning clustering algorithms. Currently takes into account square footage of home, income, and region of the country where you live, to rank you among your similar peers by your energy bill.
 
-Requirements:
+Requirements
+========
 
 ```html
 web.py
@@ -11,8 +12,17 @@ scikit-learn
 numpy
 scipy
 ```
+Installing Requirements
+========
 
-How to Run:
+```html
+sudo pip install lpthw.web
+sudo pip install scikit-learn
+sudo pip install numpy
+sudo pip install scipy
+```
+How to Run
+========
 
 ```html
 git clone https://github.com/rahulmohan/WattRank
@@ -23,6 +33,17 @@ python bin/app.py
 Then open up your browser to the address the app directs you to.
 
 Additionally, check out WattRank-Readme.docx for more documentation on the code and algorithms being used.
+
+Screenshots
+========
+
+Input Page:
+
+![Screenshot](https://raw.github.com/rahulmohan/WattRank/master/screenshots/wattrankinp.png)
+
+Output Page:
+
+![Screenshot](https://raw.github.com/rahulmohan/WattRank/master/screenshots/wattrankout.png)
 
 Data Description and Link
 ========
