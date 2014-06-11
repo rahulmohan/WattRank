@@ -13,20 +13,11 @@ scipy
 How to Run:
 
 ```html
-<h2>Example of code</h2>
 
-<pre>
-    <div class="container">
-        <div class="block two first">
-            <h2>Your title</h2>
-            <div class="wrap">
-            git clone https://github.com/rahulmohan/WattRank
-            cd WattRank
-            python bin/app.py
-            </div>
-        </div>
-    </div>
-</pre>
+git clone https://github.com/rahulmohan/WattRank
+cd WattRank
+python bin/app.py
+
 ```
 
 Then open up your browser to the address the app directs you to.
